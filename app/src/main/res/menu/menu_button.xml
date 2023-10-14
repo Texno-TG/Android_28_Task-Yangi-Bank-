@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Home"
+    android:id="@+id/homeFragment"
+    android:icon="@drawable/baseline_other_houses_24"
+    />
+<item android:title="Transfer"
+    android:id="@+id/transferFragment"
+    android:icon="@drawable/baseline_compare_arrows_24"
+    />
+<item android:title="Payme"
+    android:id="@+id/paymeFragment"
+    android:icon="@drawable/baseline_payments_24"
+    />
+
+</menu>

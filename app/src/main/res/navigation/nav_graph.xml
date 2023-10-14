@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="air.texnodev.yangibank.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_cardListFragment"
+            app:destination="@id/cardListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardListFragment"
+        android:name="air.texnodev.yangibank.fragments.CardListFragment"
+        android:label="fragment_card_list"
+        tools:layout="@layout/fragment_card_list" />
+</navigation>
